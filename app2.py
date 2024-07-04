@@ -83,7 +83,7 @@ def main():
     #     st.experimental_rerun()
 
     if st.sidebar.button("Sample Prompt 1"):
-        st.session_state.input_prompt = "Please parse the invoice number, invoice date, due date, purchase order no. and the purchase details and put them on a single table (values on the table can be repeated per row)"
+        st.session_state.input_prompt = "Please parse the invoice number, invoice date, due date, purchase order no. and the details table and put them on a single table (values on the table can be repeated per row)"
         st.experimental_rerun()
 
     uploaded_files = st.sidebar.file_uploader("Choose files...", type=["pdf", "jpg", "png", "jpeg"], accept_multiple_files=True)
