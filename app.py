@@ -15,8 +15,8 @@ genai.configure(api_key=GOOGLE_API_KEY)
 
 def load_prompt():
     input_prompt = """
-                   You are a financial advisor with an expertise in understanding invoices.
-                   You will receive input images as invoices &
+                   You are a financial advisor with an expertise in understanding invoices and tax/financial reports.
+                   You will receive input images as invoices, accounts payable and general ledger &
                    you will have to answer questions based on the input image.
                    If you don't know the answer, please refrain from speculating.
                    """
